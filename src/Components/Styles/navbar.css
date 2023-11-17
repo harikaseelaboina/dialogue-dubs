@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: linear-gradient(to bottom, #3494E6, #EC6EAD); */
+    padding: 20px;
+  }
+  
+  .nav-items a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    margin-left: 15px;
+  }
+  
+  .button-container button {
+    background-color: #FF6B6B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .nav-items {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .button-container {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  
